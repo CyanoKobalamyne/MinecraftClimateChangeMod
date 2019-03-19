@@ -164,3 +164,16 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+# Gradle
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+
+# IntelliJ IDEA
+*.ipr
+*.iws
+*.iml
+out/
+run/
