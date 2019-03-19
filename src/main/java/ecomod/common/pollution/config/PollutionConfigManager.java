@@ -37,7 +37,7 @@ import net.minecraftforge.fml.common.versioning.DefaultArtifactVersion;
 
 public class PollutionConfigManager
 {
-	String update_json_url = "https://raw.githubusercontent.com/Artem226/MinecraftEcologyMod/1.12/config/pollution_config.json";
+	String update_json_url = "https://raw.githubusercontent.com/CyanoKobalamyne/MinecraftClimateChangeMod/1.12/config/pollution_config.json";
 	
 	/** update.properties
 	 * 
