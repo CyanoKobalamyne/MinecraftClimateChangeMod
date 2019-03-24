@@ -1,5 +1,5 @@
 ﻿
-itemGroup.ecomod=Ecology Mod
+itemGroup.ecomod=Climate Connection Mod
 
 #Blocks
 tile.ecomod.filter.name=Pollution Filter
@@ -43,20 +43,20 @@ ape.ecomod.no_crops_growing.name=No crops growth
 ape.ecomod.effects_not_found.name=[ERROR!] EFFECTS NOT FOUND
 ape.ecomod.effects_not_found.desc=Effects Cache Had Not Been Received From The Server! Please Reconnect To The Server Or Rejoin The World!!!
 
-ape.ecomod.food_pollution.desc=Dropped food items and crop drops are absorbing pollution from the environment unless they're isolated. When eaten these items will cause bad potion effects.
-ape.ecomod.smog.desc=Pollution in the air when combined with water particles forms a dense fog which poisons living creatures. To prevent poisoning put on a respirator. Make sure you have filters!
-ape.ecomod.bad_sleep.desc=Because of air pollution you sleeping here makes you sick.
-ape.ecomod.poisonous_sleep.desc=When sleeping you can be poisoned by the polluted air.
-ape.ecomod.no_fish.desc=Because of the pollution fish cannot live in the water. Fishing is futile.
-ape.ecomod.polluted_water.desc=Because of high water pollution, water turns into polluted water, making it poisonous and almost useless.
+ape.ecomod.food_pollution.desc=Dropped food items and crops absorb pollution from the environment and poison you, unless they're isolated.
+ape.ecomod.smog.desc=High air pollution creates a dense fog which is bad for your health.
+ape.ecomod.bad_sleep.desc=Because of air pollution, sleeping is not as restful as it used to be.
+ape.ecomod.poisonous_sleep.desc=While sleeping, your health can deteriorate due to the highly polluted air.
+ape.ecomod.no_fish.desc=Because of pollution, fish cannot live in the water.
+ape.ecomod.polluted_water.desc=Because of high water pollution, water turns poisonous and almost useless.
 ape.ecomod.dead_trees.desc=Because of strong pollution, tree leaves deteriorate and decay.
-ape.ecomod.no_trees.desc=Saplings can grow into trees no more in this region.
-ape.ecomod.acid_rain.desc=The rain mixed with pollution produces an acid rain. When raining it will poison any living creature if the one isn't wearing a helmet(helmet is damaged instead). Also the rain dissolves leaves and farmland.
-ape.ecomod.wasteland.desc=The area turns into lifeless wasteland, grass turn into dirt and sand, the biome color changes to dark, entities defined as "creature" or "water creature" can no longer spawn there. 
-ape.ecomod.no_plowing.desc=Because soil pollution is too great, soil deteriorates. Thus the dirt cannot be plowed and farmland turns into dirt. 
-ape.ecomod.no_animals.desc=Because of harsh environmental conditions animals can spawn no more here.
-ape.ecomod.no_bonemeal.desc=Because soil is oversaturated with poisonous substances fertilizers do not have an effect.
-ape.ecomod.no_crops_growing.desc=Crops can grow no more here, but you still can fertilize them with bonemeal unless you have a bonemeal restricting effect.
+ape.ecomod.no_trees.desc=Saplings can no longer grow into trees in this region.
+ape.ecomod.acid_rain.desc=The rain mixed with air pollution produces acid rain, which poisons all living creatures, damages leaves and farmland.
+ape.ecomod.wasteland.desc=The area turns into dark, lifeless wasteland. Grass turns into dirt and sand; entities defined as "creature" or "water creature" can no longer spawn here.
+ape.ecomod.no_plowing.desc=Because pollution is too high, soil deteriorates. Dirt cannot be plowed and farmland turns into dirt.
+ape.ecomod.no_animals.desc=Because of harsh environmental conditions animals can no longer spawn here.
+ape.ecomod.no_bonemeal.desc=Because soil is oversaturated with poisonous substances, fertilizers do not have an effect.
+ape.ecomod.no_crops_growing.desc=Crops can no longer grow here, but you can still use bonemeal to fertilize them.
 
 #Achievements
 advancements.ecomod.root.title=Ecology Mod
