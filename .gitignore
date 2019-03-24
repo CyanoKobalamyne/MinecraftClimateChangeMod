@@ -172,6 +172,7 @@ gradlew
 gradlew.bat
 
 # IntelliJ IDEA
+.idea/
 *.ipr
 *.iws
 *.iml
