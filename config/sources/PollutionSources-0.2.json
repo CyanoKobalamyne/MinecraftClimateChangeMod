@@ -4,17 +4,17 @@
     {
       "id": "bonemeal_pollution",
       "pollution": {
-        "air": 1.0,
-        "water": 1.0,
-        "soil": 2.0
+        "air": 0.0,
+        "water": 2.0,
+        "soil": 5.0
       }
     },
     {
       "id": "expired_item",
       "pollution": {
         "air": 0.0,
-        "water": 0.0625,
-        "soil": 0.125
+        "water": 0.0,
+        "soil": 0.0
       }
     },
     {
@@ -38,7 +38,7 @@
       "pollution": {
         "air": 0.0,
         "water": 0.0,
-        "soil": -1.0
+        "soil": 0.0
       }
     },
     {
@@ -54,7 +54,7 @@
       "pollution": {
         "air": 3.5,
         "water": 0.0,
-        "soil": 0.0
+        "soil": 2.0
       }
     },
     {
@@ -84,7 +84,7 @@
     {
       "id": "brewing_potion_pollution",
       "pollution": {
-        "air": 6.0,
+        "air": 0.0,
         "water": 0.0,
         "soil": 0.0
       }
