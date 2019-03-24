@@ -139,23 +139,23 @@ public class GuiAnalyzer extends GuiScreen
 			this.drawStringNoShadow(fontRenderer, "Air:", xt1+10, strt+42, new Color(255, 255, 126).getRGB());
 
 			if(pollution.getAirPollution() < 0.1D)
-				this.drawStringNoShadow(fontRenderer, "0", xt1+50, strt+42, new Color(255, 255, 126).getRGB());
+				this.drawStringNoShadow(fontRenderer, "    0", xt1+50, strt+42, new Color(255, 255, 126).getRGB());
 			else
-				this.drawStringNoShadow(fontRenderer, Float.toString(pollution.getAirPollution()), xt1+50, strt+42, new Color(255, 255, 126).getRGB());
+				this.drawStringNoShadow(fontRenderer, String.format("%5d", (int) pollution.getAirPollution()), xt1+50, strt+42, new Color(255, 255, 126).getRGB());
 
 			this.drawStringNoShadow(fontRenderer, "Water:", xt1+10, strt+62, new Color(0, 50, 252).getRGB());
 			
 			if(pollution.getWaterPollution() < 0.1D)
-				this.drawStringNoShadow(fontRenderer, "0", xt1+50, strt+62, new Color(0, 50, 252).getRGB());
+				this.drawStringNoShadow(fontRenderer, "    0", xt1+50, strt+62, new Color(0, 50, 252).getRGB());
 			else
-				this.drawStringNoShadow(fontRenderer, Float.toString(pollution.getWaterPollution()), xt1+50, strt+62, new Color(0, 50, 252).getRGB());
+				this.drawStringNoShadow(fontRenderer, String.format("%5d", (int) pollution.getWaterPollution()), xt1+50, strt+62, new Color(0, 50, 252).getRGB());
 
 			this.drawStringNoShadow(fontRenderer, "Soil:", xt1+10, strt+82, new Color(89, 61, 41).getRGB());
 			
 			if(pollution.getSoilPollution() < 0.1D)
-				this.drawStringNoShadow(fontRenderer, "0", xt1+50, strt+82, new Color(89, 61, 41).getRGB());
+				this.drawStringNoShadow(fontRenderer, "    0", xt1+50, strt+82, new Color(89, 61, 41).getRGB());
 			else
-				this.drawStringNoShadow(fontRenderer, Float.toString(pollution.getSoilPollution()), xt1+50, strt+82, new Color(89, 61, 41).getRGB());
+				this.drawStringNoShadow(fontRenderer, String.format("%5d", (int) pollution.getSoilPollution()), xt1+50, strt+82, new Color(89, 61, 41).getRGB());
 			
 			this.drawStringNoShadow(fontRenderer, I18n.format("gui.ecomod.text.pollution_effects"), xt1/2-50, 10, Color.BLACK.getRGB());
 			
