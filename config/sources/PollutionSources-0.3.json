@@ -1,12 +1,12 @@
 {
-  "version": "0.2",
+  "version": "0.3",
   "sources": [
     {
       "id": "bonemeal_pollution",
       "pollution": {
         "air": 0.0,
-        "water": 2.0,
-        "soil": 5.0
+        "water": 20.0,
+        "soil": 50.0
       }
     },
     {
@@ -20,17 +20,17 @@
     {
       "id": "explosion_pollution_per_power",
       "pollution": {
-        "air": 20.5,
-        "water": 6.25,
-        "soil": 8.25
+        "air": 0.0,
+        "water": 0.0,
+        "soil": 0.0
       }
     },
     {
       "id": "tree_growing_pollution_reduction",
       "pollution": {
-        "air": -22.0,
-        "water": -3.0,
-        "soil": -17.0
+        "air": -500.0,
+        "water": 0.0,
+        "soil": -200.0
       }
     },
     {
@@ -44,7 +44,7 @@
     {
       "id": "leaves_reduction",
       "pollution": {
-        "air": -14.5,
+        "air": -50.0,
         "water": 0.0,
         "soil": 0.0
       }
@@ -52,33 +52,33 @@
     {
       "id": "fire_pollution",
       "pollution": {
-        "air": 3.5,
+        "air": 50.0,
         "water": 0.0,
-        "soil": 2.0
+        "soil": 20.0
       }
     },
     {
       "id": "default_smelted_item_pollution",
       "pollution": {
-        "air": 3.0,
-        "water": 0.6,
-        "soil": 1.9
+        "air": 30.0,
+        "water": 10.0,
+        "soil": 20.0
       }
     },
     {
       "id": "concentrated_pollution_explosion_pollution",
       "pollution": {
-        "air": 50.0,
-        "water": 5.0,
-        "soil": 10.0
+        "air": 500.0,
+        "water": 50.0,
+        "soil": 100.0
       }
     },
     {
       "id": "advanced_filter_reduction",
       "pollution": {
-        "air": -4.5,
-        "water": -0.5,
-        "soil": -0.5
+        "air": -50.0,
+        "water": -5.0,
+        "soil": -5.0
       }
     },
     {
@@ -92,9 +92,9 @@
     {
       "id": "nuclear_explosion_pollution_per_power",
       "pollution": {
-        "air": 4100.0,
-        "water": 1250.0,
-        "soil": 2050.0
+        "air": 0.0,
+        "water": 0.0,
+        "soil": 0.0
       }
     }
   ],

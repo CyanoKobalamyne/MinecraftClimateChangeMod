@@ -6,7 +6,7 @@
         "0.1": "https://raw.githubusercontent.com/CyanoKobalamyne/MinecraftClimateConnectionMod/1.12/config/tiles/TEPollutionConfig-0.1.json"
       },
       "PollutionSources": {
-        "0.2": "https://raw.githubusercontent.com/CyanoKobalamyne/MinecraftClimateConnectionMod/1.12/config/sources/PollutionSources-0.2.json"
+        "0.3": "https://raw.githubusercontent.com/CyanoKobalamyne/MinecraftClimateConnectionMod/1.12/config/sources/PollutionSources-0.3.json"
       },
       "PollutionEffects": {
         "0.2": "https://raw.githubusercontent.com/CyanoKobalamyne/MinecraftClimateConnectionMod/1.12/config/effects/PollutionEffects-0.2.json"
