@@ -8,7 +8,7 @@ public class EMConsts
 	//Mod data
 	public static final String modid = "ecomod";
 	
-	public static final String name = "Ecology Mod";
+	public static final String name = "Climate Connection Mod";
 	
 	/**	
 	 * MCVERSION-MAJORMOD.MAJORAPI.MINOR.PATCH <br> 
@@ -17,24 +17,22 @@ public class EMConsts
 	 * 
 	 */
 	public static final String mcversion = "1.12.2";
-	public static final String version = mcversion + "-2.0.0.0";
+	public static final String version = mcversion + "-1.0.0.0";
 	
 	public static final String deps = "";
 	
-	public static final String json = "https://raw.githubusercontent.com/Artem226/MinecraftEcologyMod/1.12/versions.json";
+	public static final String json = "https://raw.githubusercontent.com/CyanoKobalamyne/MinecraftClimateConnectionMod/1.12/versions.json";
 	
-	//
+	public static final String githubURL = "https://github.com/CyanoKobalamyne/MinecraftClimateConnectionMod";
 	
-	public static final String githubURL = "https://github.com/Artem226/MinecraftEcologyMod";
+	public static final String issues = "https://github.com/CyanoKobalamyne/MinecraftClimateConnectionMod/issues";
 	
-	public static final String issues = "https://github.com/Artem226/MinecraftEcologyMod/issues";
-	
-	public static final String projectURL = "https://minecraft.curseforge.com/projects/ecology-mod";
+	public static final String projectURL = "https://github.com/CyanoKobalamyne/MinecraftClimateConnectionWorld";
 	
 	
-	public static final String contributors = "Artem226(author/maintainer), pupnewfster, xhz313123(Chinese translation) and all feedbackers.";
+	public static final String contributors = "CyanoKobalamyne, Artem226 (original author)";
 	
-	public static final List<String> authors = Collections.singletonList("Artem226");
+	public static final List<String> authors = Collections.singletonList("CyanoKobalamyne");
 	
 	//Proxies
 	

@@ -1,7 +1,7 @@
 {
   "modversions": [
     {
-      "version": "1.12.2-2.0.0.0",
+      "version": "1.12.2-1.0.0.0",
       "TEPollutionConfig": {
         "0.1": "https://raw.githubusercontent.com/CyanoKobalamyne/MinecraftClimateConnectionMod/1.12/config/tiles/TEPollutionConfig-0.1.json"
       },
